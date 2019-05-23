@@ -25,7 +25,7 @@ Click [here](https://labseu1-db-test.firebaseapp.com) to visit the app, or click
   - [Back-End Dependencies ```(Production)```](#back-end-dependencies-production)
     - [Send Grid](#send-grid)
     - [cors](#cors)
-    - [ExpressJS](#express)
+    - [ExpressJS](#ExpressJS)
     - [firebase Admin](#firebase-admin)
     - [firebase Functions](#firebase-functions)
     - [Stripe](#stripe)
