@@ -25,9 +25,9 @@ Click [here](https://labseu1-db-test.firebaseapp.com) to visit the app, or click
   - [Back-End Dependencies ```(Production)```](#back-end-dependencies-production)
     - [Send Grid](#send-grid)
     - [cors](#cors)
-    - [express](#express)
-    - [firebase-admin](#firebase-admin)
-    - [firebase-functions](#firebase-functions)
+    - [ExpressJS](#express)
+    - [firebase Admin](#firebase-admin)
+    - [firebase Functions](#firebase-functions)
     - [Stripe](#stripe)
   - [Back-End Dependencies ```(Development)```](#back-end-dependencies-development)
     - [Crossenv](#crossenv)
@@ -105,9 +105,13 @@ Click [here](https://labseu1-db-test.firebaseapp.com) to visit the app, or click
 
 Used for user confirmation Emails (Required by employer). | [View Dependency](https://sendgrid.com/docs/)
 
-### BcryptJS
+### Firebase Admin
 
-Bcrypt is an adaptive hash function which adjusts the cost of hashing, which means that in the future as computers become more powerful, simply increasing the salt rounds will suffice at keeping Main Course secure due to the amount of processing time that would be required to generate all possible password combinations. | [View Dependency](https://www.npmjs.com/package/bcryptjs)
+Firebase provides the tools and infrastructure you need to develop your app, grow your user base, and earn money. The Firebase Admin Node.js SDK enables access to Firebase services from privileged environments (such as servers or cloud) in Node.js. | [View Dependency](https://firebase.google.com/docs/admin/setup)
+
+### Firebase Functions
+
+Runs Code in response of Http Request or firebase Features | [View Dependency](https://firebase.google.com/docs/functions)
 
 ### Cors
 
@@ -117,64 +121,21 @@ Used to configure API security. This was used to allow for secure communication 
 
 A prebuilt NodeJS framework that makes creating server side applications simple, fast, and flexible. NodeJS is powered by Google's V8 Engine which means it's powerful and can handle a large number of requests without lapsing in dependability. Also, this means that this is a highly scalable choice when you consider the Event Loop which manages all asynchronous operations allowing the program to continue to run as expected without stops. | [View Dependency](http://expressjs.com/)
 
-### MongoDB
-
-MongoDB is an object-oriented, simple, dynamic, and scalable NoSQL database. Due to the minimal about of data relationships we felt this was a good choice for Main Course. | [View Dependency](https://docs.mongodb.com/)
-
-### Mongoose
-
-Provides a straight-forward, schema-based solution to model application data with MongoDB. It also offers out of the box perks such as validation. | [View Dependency](https://mongoosejs.com/)
-
-### Helmet
-
-A collection of nine smaller middleware functions that set security-related HTTP headers appropriatley. This protects Main Course from numerous well known vulnerablilites. | [View Dependency](https://helmetjs.github.io/)
-
-### JSON Web Token
-
-Realizing that there is not inherent benefit to using tokens over sessions, we chose to implement jwts due to the added benefit of storing the session on the client side as opposed to being in-memory. Main Course is built with the active server in mind and the potential to have the application be accessed from various devices in different locations. With this, instead of running the risk of having a session be interrupted due to data roaming, connection issues, or server side problems, we chose to store the session information on the client side. We also found this to be more efficient for our needs, as jwts eliminate the need to fetch additional information from the DB to validate the user. | [View Dependency](https://www.npmjs.com/package/jsonwebtoken)
-
-### Passport
-
-Passport is a flexible and fully customizable NodeJS middleware that comes with various out of the box authentication strategies for Facebook, Twitter, etcetera. This was an obvious choice for us because it makes future authentication features readily accessible. | [View Dependency](http://www.passportjs.org/)
 
 ### Stripe
 
-A powerful, simple, and seamless payment commerce solution (Required by employer). | [View Dependency](https://stripe.com/docs/)
+A powerful, simple, and seamless payment commerce solution | [View Dependency](https://stripe.com/docs/)
 
 
 ## Back-End Dependencies ```(Development)```
-
-### Concurrently
-
-This provides the ability to conveniently run both the back-end and front-end servers simultaneously on one terminal, which makes keeping track of errors easy during development as well as cutting back on time switching between terminals. | [View Dependency](https://www.npmjs.com/package/concurrently)
-
-### Crossenv
-
-Due to the variance of operating systems on the development team, Crossenv allows us to universally set environment variables. | [View Dependency](https://www.npmjs.com/package/cross-env)
 
 ### Eslint
 
 Eslint is the dominant linting tool for NodeJS and it makes it possible to establish a clear coding convention for a team or project, as well as aiding in catching various bugs such as variables improperly scoped. | [View Dependency](https://eslint.org/)
 
-### Husky
+### Firebase-functions-test
 
-Used to prevent possible bad git commits or pushes due to running pre-commit linting hooks. | [View Dependency](https://github.com/typicode/husky)
-
-### Jest
-
-Chosen for its out of the box readiness. Jest comes with inbuilt mocking, the ability to run tests in parallel, it works with both the front-end and back-end, has promise support, and is a one stop shop for most testing needs within the scope of this project. | [View Dependency](https://jestjs.io/)
-
-### Morgan
-
-An HTTP request logging middleware used for production to easily identify bugs in routes. | [View Dependency](https://github.com/expressjs/morgan)
-
-### Nodemon
-
-Automatically restarts the server on save making production more efficient. | [View Dependency](https://nodemon.io/)
-
-### Supertest
-
-Using supertest with jest for integration testing makes things easy to implement and easy to read. | [View Dependency](https://www.npmjs.com/package/supertest)
+The firebase-functions-test is unit testing library for Cloud Functions for Firebase. It is a companion to firebase-functions. | [View Dependency](https://firebase.google.com/docs/functions/unit-testing)
 
 ## Front-End Dependencies ```(Production)```
 
