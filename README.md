@@ -23,7 +23,7 @@ Click [here](https://labseu1-db-test.firebaseapp.com) to visit the app, or click
 - [Environment Variables](#environment-variables)
 - [Tech-Stack](#tech-stack)
   - [Back-End Dependencies ```(Production)```](#back-end-dependencies-production)
-    - [nodemailer](#nodemailer)
+    - [Send Grid](#send-grid)
     - [cors](#cors)
     - [express](#express)
     - [firebase-admin](#firebase-admin)
@@ -85,31 +85,17 @@ Click [here](https://labseu1-db-test.firebaseapp.com) to visit the app, or click
 
 # Scripts
 
-## Linting
-
-`npm run lint-all`: when at the root, lints front/back -end
-
-`npm run lint`: lint the backend or frontend depending on location
-
-When committing, `npm run lint-all` will automatically be run.
-
 ## Running
 
-`npm run client`: Runs only the front-end client.
+`npm run start`: Runs only the front-end client.
 
-`npm run server`: Runs only the back-end server.
+`npm run test`: Will run the tests for front-end
 
-`npm run dev`: Runs both the front and back ends.
+`npm run build`: Will create a build file for front-end
 
 # Environment Variables
 
-`HEROKU_URI`: URL of website (front and back end are deployed here)
-
-`MONGO_URI`: URL for the database
-
-`NODE_MODULES_CACHE`: false
-
-`SECRET_OR_KEY`: secret key for bcryptjs
+`URL`: The url of the hosted website
 
 # Tech-Stack
 
