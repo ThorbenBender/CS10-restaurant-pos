@@ -23,14 +23,14 @@ Click [here](https://labseu1-db-test.firebaseapp.com) to visit the app, or click
 - [Tech-Stack](#tech-stack)
   - [Back-End Dependencies ```(Production)```](#back-end-dependencies-production)
     - [Send Grid](#send-grid)
-    - [cors](#cors)
+    - [Cors](#cors)
     - [ExpressJS](#ExpressJS)
-    - [firebase Admin](#firebase-admin)
-    - [firebase Functions](#firebase-functions)
+    - [Firebase Admin](#firebase-admin)
+    - [Firebase Functions](#firebase-functions)
     - [Stripe](#stripe)
   - [Back-End Dependencies ```(Development)```](#back-end-dependencies-development)
     - [Eslint](#eslint)
-    - [Firebase-functions-test](#firebase-functions-test)
+    - [Firebase-Functions-Test](#firebase-functions-test)
   - [Front-End Dependencies ```(Production)```](#front-end-dependencies-production)
     - [React](#react)
     - [Redux](#redux)
@@ -46,13 +46,14 @@ Click [here](https://labseu1-db-test.firebaseapp.com) to visit the app, or click
     - [Styled-Components](#styled-components)
   - [Front-End Dependencies ```(Development)```](#front-end-dependencies-development)
     - [Eslint](#eslint-1)
-    - [Eslint-config-prettier](#eslint-config-prettier)
-    - [React-Testing-Library](#eslint-config-library)
+    - [Eslint-Config-Prettier](#eslint-config-prettier)
+    - [React-Testing-Library](#react-testing-library)
 - [API Documentation](#api-documentation)
   - [Third-Party APIs](#third-party-apis)
     - [Draftjs](#draftjs-1)
-    - [react-redux-firebase](#react-redux-firebase-1)
-    - [react-giphy-component](#react-giphy-component-1)
+    - [React-Redux-Firebase](#react-redux-firebase-1)
+    - [Firebase Functions](#firebase-functions-1)
+    - [React-Giphy-Component](#react-giphy-component-1)
     - [Stripe](#stripe-1)
   - [Front End Api](#front-end-api)
    	- [Org Routes](#org-routes)
@@ -205,9 +206,13 @@ Lets you render and test your react-components. | [View Dependency](https://test
 
 Used for user confirmation Emails | [View API](https://sendgrid.com/docs/)
 
-### Firebase Firestore 1 
+### React-Redux-Firebase 1 
 
 Used to store data and authenticate User | [View API](https://firebase.google.com/docs/reference/js/)
+
+### Firebase Functions 1
+
+Used an event listener which will run code when a new org is created | [View API](https://firebase.google.com/docs/functions/database-events)
 
 ### Stripe 1
 
