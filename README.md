@@ -1,4 +1,4 @@
-# Restaurant POS [![Build Status](https://travis-ci.org/labseu1-db/labseu1-db-FE.svg?branch=master)](https://travis-ci.org/labseu1-db/labseu1-db-FE)
+# Discussion Board Pine [![Build Status](https://travis-ci.org/labseu1-db/labseu1-db-FE.svg?branch=master)](https://travis-ci.org/labseu1-db/labseu1-db-FE)
 Welcome to our Discussion Board.
 
 Click [here](https://labseu1-db-test.firebaseapp.com) to visit the app, or click on the image below to view our video demo and tutorial:
