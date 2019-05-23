@@ -217,47 +217,47 @@ Used to store data and authenticate User | [View API](https://firebase.google.co
 
 A powerful, simple, and seamless payment commerce solution | [View API](https://stripe.com/docs/)
 
-## Org Routes
+### Org Routes
 
-### Add a new Org
+#### Add a new Org
 
-### Invite People for Org
+#### Invite People for Org
 
-### Create Spaces for Org
+#### Create Spaces for Org
 
-### Delete Org
+#### Delete Org
 
-## Branch Route
+### Branch Route
 
-### Add new Branch
+#### Add new Branch
 
-### Invite People to Branch
+#### Invite People to Branch
 
-### Kick People from Branch
+#### Kick People from Branch
 
-### Leave Branch
+#### Leave Branch
 
-### Delete Branch
+#### Delete Branch
 
-## Tweak Routes
+### Tweak Routes
 
-### Add new Tweak
+#### Add new Tweak
 
-### Delete Tweak
+#### Delete Tweak
 
-## Comment Route
+### Comment Route
 
-### Add new Comment
+#### Add new Comment
 
-### Edit Comment
+#### Edit Comment
 
-### Add gif to Comment
+#### Add gif to Comment
 
-### Like Comment
+#### Like Comment
 
-### Mark Comment as Decision
+#### Mark Comment as Decision
 
-### Delete Comment
+#### Delete Comment
 
 
 
