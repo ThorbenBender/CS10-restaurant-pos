@@ -47,8 +47,8 @@ Click [here](https://labseu1-db-test.firebaseapp.com) to visit the app, or click
     - [Styled-Components](#styled-components)
   - [Front-End Dependencies ```(Development)```](#front-end-dependencies-development)
     - [Eslint](#eslint-1)
-    - [eslint-config-prettier](#eslint-config-prettier)
-    - [react-testing-library](#eslint-config-library)
+    - [Eslint-config-prettier](#eslint-config-prettier)
+    - [React-Testing-Library](#eslint-config-library)
 - [API Documentation](#api-documentation)
   - [Third-Party APIs](#third-party-apis)
     - [Draftjs](#draftjs-1)
@@ -192,9 +192,15 @@ Allows for the ability to synchronize state with redux store through uni-directi
 
 [See Above Explanation](#eslint)
 
-### Stylelint
+### Eslint-Config-Prettier
 
-Used to enforce project conventions in styling to keep code consistent. | [View Dependency](https://stylelint.io/)
+Turns off all rules that are unnecessary or might conflict with Prettier.
+This lets you use you favorite shareable config without letting its stylistic choices get in the way when using Prettier.
+[View Dependency](https://github.com/prettier/eslint-config-prettier)
+
+### React-Testing-Library
+
+Lets you render and test your react-components. | [View Dependency](https://testing-library.com/docs/react-testing-library/api)
 
 # API Documentation
 
@@ -202,55 +208,21 @@ Used to enforce project conventions in styling to keep code consistent. | [View 
 
 ### Send Grid
 
-Used for user confirmation Emails (Required by employer). | [View API](https://sendgrid.com/docs/)
+Used for user confirmation Emails | [View API](https://sendgrid.com/docs/)
 
-### Avalara
+### Firebase Firestore
 
-Used for retrieving local sales tax rates for restaurant location. | [View API](https://developer.avalara.com/api-reference/avatax/rest/v2/)
-
-### Lorem Picsum
-
-Used for generating random profile images when users choose not to upload their own image. | [View API](https://picsum.photos/images/)
-
-### Transloadit
-
-Used for uploading and processing images to Google Cloud Storage. | [View API](https://transloadit.com/docs/)
+Used to store data and authenticate User | [View API](https://firebase.google.com/docs/reference/js/)
 
 ### Stripe
 
-A powerful, simple, and seamless payment commerce solution (Required by employer). | [View API](https://stripe.com/docs/)
+A powerful, simple, and seamless payment commerce solution | [View API](https://stripe.com/docs/)
 
-### Google Cloud Storage
+### Org Routes
 
-Used for storing the app's image and video files for high availability in all regions. | [View API](https://cloud.google.com/storage/docs/)
+## Add a new Org
 
-## Backend API
 
-### Auth Token Payload
-
-The JWT payload will look like this:
-
-```
-{
-  id: '1234567890',
-  pin: '1234,
-  role: {
-    admin: true,
-    manager: false
-  },
-  restaurant: '0987654321',
-  membership: false
-};
-```
-
-When the admin signs in these fields will be null:
-
-- pin
-- role
-
-If the restaurant field is not defined, that means that the admin has not created a restaurant yet, and should be prompted to make one. Otherwise, the restaurant field will be populated with the ObjectId of the admin's restaurant.
-
-When an employee logs in to the POS system through the employee login, the id, pin and role fields will be populated with the employee's data.
 
 
 ### Employee Routes
