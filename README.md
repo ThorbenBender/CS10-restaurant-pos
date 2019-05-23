@@ -179,7 +179,6 @@ Let's you use prebuild and styled components for your website. | [View Dependenc
 
 Has a thriving community and offers the ability to directly style multiple components within a file. The syntax used is familiar to JavaScript and improves code cleanliness and makes it easy to get up and going for those without a lot of css experience. Styled components are also very efficient, improving load time for users. | [View Dependency](https://www.styled-components.com/docs/)
 
-### Hello
 
 ### Connected React Router
 
@@ -218,9 +217,47 @@ Used to store data and authenticate User | [View API](https://firebase.google.co
 
 A powerful, simple, and seamless payment commerce solution | [View API](https://stripe.com/docs/)
 
-### Org Routes
+## Org Routes
 
-## Add a new Org
+### Add a new Org
+
+### Invite People for Org
+
+### Create Spaces for Org
+
+### Delete Org
+
+## Branch Route
+
+### Add new Branch
+
+### Invite People to Branch
+
+### Kick People from Branch
+
+### Leave Branch
+
+### Delete Branch
+
+## Tweak Routes
+
+### Add new Tweak
+
+### Delete Tweak
+
+## Comment Route
+
+### Add new Comment
+
+### Edit Comment
+
+### Add gif to Comment
+
+### Like Comment
+
+### Mark Comment as Decision
+
+### Delete Comment
 
 
 
