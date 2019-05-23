@@ -3,7 +3,7 @@ Welcome to our Discussion Board.
 
 Click [here](https://labseu1-db-test.firebaseapp.com) to visit the app, or click on the image below to view our video demo and tutorial:
 
-[![Main Course App](https://ibb.co/RvD3M0q)](https://www.youtube.com/watch?v=wPkpSewq568)
+[![Main Course App](https://imgur.com/a/Ag44i5Q)](https://www.youtube.com/watch?v=wPkpSewq568)
 
 ## Team
 |   [**Ronnie Miksch**](https://github.com/myxozoa)  |   [**Dani Tacheny**](https://github.com/danitacheny)   |    [**Eric Hech**](https://github.com/EricHech)    |   [**Chris Beards**](https://github.com/ChristopherBeards)  |
