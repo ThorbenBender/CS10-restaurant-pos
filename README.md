@@ -52,31 +52,31 @@ Click [here](https://labseu1-db-test.firebaseapp.com) to visit the app, or click
 - [API Documentation](#api-documentation)
   - [Third-Party APIs](#third-party-apis)
     - [Draftjs](#draftjs-1)
-    - [react-redux-firebase](#react-redux-firebase)
+    - [react-redux-firebase](#react-redux-firebase-1)
     - [react-giphy-component](#react-giphy-component-1)
     - [Stripe](#stripe-1)
-    - [Org Routes](#org-routes)
-    	- [Add a new Org](#add-new-org)
+  - [Front End Api](#front-end-api)
+   	- [Org Routes](#org-routes)
+    		- [Add a new Org](#add-new-org)
 		- [Invite People to Org](#invite-people-to-org)
 		- [Created Spaces for Org](#create-space-for-org)
 		- [Delete Org](#delete-org)
-    - [Branch Route](#branch-routes)
-    	- [Add new branch](#add-new-branch)
+    	- [Branch Route](#branch-routes)
+    		- [Add new branch](#add-new-branch)
 		- [Invite People to Branch](#invite-people-to-branch)
 		- [Kick People from Branch](#kick-people-from-brach)
 		- [Leave Branch](#leave-branch)
 		- [Delete Branch](#delete-branch)
-    - [Tweak Routes](#tweak-routes)
-    	- [Add new tweak](#add-new-tweak)
+    	- [Tweak Routes](#tweak-routes)
+    		- [Add new tweak](#add-new-tweak)
 		- [Delete tweak](#delete-tweak)
-    - [Comment Routes](#comments-routes)
-    	- [Add new comment](#add-new-comment)
+    	- [Comment Routes](#comments-routes)
+    		- [Add new comment](#add-new-comment)
 		- [Edit comment](#edit-comment)
 		- [Add gif to comment](#add-gif-to-comment)
 		- [Like comment](#like-comment)
 		- [Mark comment as decision](#mark-comment-as-decision)
 		- [Delete Comment](#delete-comment)
-  - [Backend API](#backend-api)
     
 
 # Scripts
@@ -205,15 +205,15 @@ Lets you render and test your react-components. | [View Dependency](https://test
 
 ## Third-Party APIs
 
-### Send Grid
+### Send Grid 1
 
 Used for user confirmation Emails | [View API](https://sendgrid.com/docs/)
 
-### Firebase Firestore
+### Firebase Firestore 1 
 
 Used to store data and authenticate User | [View API](https://firebase.google.com/docs/reference/js/)
 
-### Stripe
+### Stripe 1
 
 A powerful, simple, and seamless payment commerce solution | [View API](https://stripe.com/docs/)
 
@@ -222,7 +222,7 @@ A powerful, simple, and seamless payment commerce solution | [View API](https://
 
 ### Org Routes
 
-#### Add a new Org
+#### Add new Org
 
 set organisations/{orgId}
 
@@ -254,7 +254,7 @@ set organisations/{orgId}
 `isPremium`: will get set to false at the beginning,
 `orgName`: is required
 
-#### Invite People for Org
+#### Invite People to Org
 
 update organisations/{orgId}
 
@@ -353,7 +353,7 @@ delete tweaks/{tweakId}
 
 only the tweakId is required
 
-### Comment Route
+### Comment Routes
 
 #### Add new Comment
 
