@@ -217,11 +217,48 @@ Used to store data and authenticate User | [View API](https://firebase.google.co
 
 A powerful, simple, and seamless payment commerce solution | [View API](https://stripe.com/docs/)
 
+
+## Front End Routes
+
 ### Org Routes
 
 #### Add a new Org
 
+set organisations/{orgId}
+
+```
+{
+	arrayOfAdminsEmails:  [
+		'email@email.com'
+	],
+	arrayOfAdminsIds: [
+		'adminId'
+	],
+	arrayOfUsersEmails: [
+		'email@email.com', 'user@user.com'
+	],
+	arrayOfUsersIds: [
+		'adminId', 'userId'
+	],
+	createdByUserId: 'adminId',
+	isPremium: false (boolean),
+	orgName: orgName
+}
+```
+
+`arrayOfAdminsEmails`: will get set automatic
+`arrayOfAdminsIds`: will get set automatic
+`arrayOfAdminsEmails`: not required / contains adminsEmails
+`arrayOfAdminsIds`: not required / contains adminsIds
+`createdByUserId`: will get set automatic
+`isPremium`: will get set to false at the beginning,
+`orgName`: is required
+
 #### Invite People for Org
+
+update organisations/{orgId}
+
+userEmails = [
 
 #### Create Spaces for Org
 
