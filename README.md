@@ -14,11 +14,10 @@ Click [here](https://labseu1-db-test.firebaseapp.com) to visit the app, or click
 
 
 # Table of Contents
-- [Discussion Board](#restaurant-pos)
+- [Discussion Board](#discussion-board-pine)
 - [Team](#team)
 - [Table of Contents](#table-of-contents)
 - [Scripts](#scripts)
-  - [Linting](#linting)
   - [Running](#running)
 - [Environment Variables](#environment-variables)
 - [Tech-Stack](#tech-stack)
