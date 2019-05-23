@@ -1,9 +1,9 @@
 # Restaurant POS [![Build Status](https://travis-ci.org/labseu1-db/labseu1-db-FE.svg?branch=master)](https://travis-ci.org/labseu1-db/labseu1-db-FE)
-Welcome to our Restaurant Point-of-Sale System.
+Welcome to our Discussion Board.
 
-Click [here](https://www.maincourse.app/) to visit the app, or click on the image below to view our video demo and tutorial:
+Click [here](https://labseu1-db-test.firebaseapp.com) to visit the app, or click on the image below to view our video demo and tutorial:
 
-[![Main Course App](https://storage.googleapis.com/main-course-images/Screen%20Shot%202018-10-16%20at%202.50.22%20PM.png)](https://www.youtube.com/watch?v=wPkpSewq568)
+[![Main Course App](https://photos.google.com/photo/AF1QipMZt5C3xA3nWjBAhIVSsTU4xBP1riFd-Y81BNKb)](https://www.youtube.com/watch?v=wPkpSewq568)
 
 ## Team
 |   [**Ronnie Miksch**](https://github.com/myxozoa)  |   [**Dani Tacheny**](https://github.com/danitacheny)   |    [**Eric Hech**](https://github.com/EricHech)    |   [**Chris Beards**](https://github.com/ChristopherBeards)  |
