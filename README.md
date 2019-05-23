@@ -43,6 +43,7 @@ Click [here](https://labseu1-db-test.firebaseapp.com) to visit the app, or click
     - [react-redux-firebase](#react-redux-firebase)
     - [react-router-dom](#react-router-dom)
     - [react-scripts](#react-scripts)
+    - [Hello](#bye)
     - [react-stripe-elements](#react-stripe-elements)
     - [redux-firestore](#redux-firestore)
     - [Semantic-Ui](#semantic-ui)
@@ -181,6 +182,7 @@ Let's you use prebuild and styled components for your website. | [View Dependenc
 
 Has a thriving community and offers the ability to directly style multiple components within a file. The syntax used is familiar to JavaScript and improves code cleanliness and makes it easy to get up and going for those without a lot of css experience. Styled components are also very efficient, improving load time for users. | [View Dependency](https://www.styled-components.com/docs/)
 
+### Hello
 
 ### Connected React Router
 
