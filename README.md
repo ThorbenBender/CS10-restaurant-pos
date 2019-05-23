@@ -6,7 +6,7 @@ Click [here](https://labseu1-db-test.firebaseapp.com) to visit the app, or click
 [![Main Course App](https://imgur.com/a/Ag44i5Q)](https://www.youtube.com/watch?v=wPkpSewq568)
 
 ## Team
-|   [**Ronnie Miksch**](https://github.com/myxozoa)  |   [**Dani Tacheny**](https://github.com/danitacheny)   |    [**Eric Hech**](https://github.com/EricHech)    |   [**Chris Beards**](https://github.com/ChristopherBeards)  |
+|   [**Elisa Martin**](https://github.com/myxozoa)  |   [**Ivana Huckova**](https://github.com/danitacheny)   |    [**Novian Pun**](https://github.com/EricHech)    |   [**Samar Vir**](https://github.com/ChristopherBeards)  | [**Sean Attewell**](htts://github.com/sean) | [**Thorben Bender**](https://github.com/ThorbenBender)
 |:----------------:|:----------------:|:---------------:|:---------------:|
 | [<img src="https://avatars1.githubusercontent.com/u/32121076?s=80" width="80">](https://github.com/myxozoa) | [<img src="https://avatars0.githubusercontent.com/u/34424414?s=80" width="80">](https://github.com/danitacheny)  | [<img src="https://avatars3.githubusercontent.com/u/34724684?s=80" width="80">](https://github.com/EricHech) | [<img src="https://avatars2.githubusercontent.com/u/34330944?s=80" width="80">](https://github.com/ChristopherBeards) |
 | [<img src="https://github.com/favicon.ico" width="15"> Github](https://github.com/myxozoa)  |  [<img src="https://github.com/favicon.ico" width="15"> Github](https://github.com/danitacheny) | [<img src="https://github.com/favicon.ico" width="15"> Github](https://github.com/EricHech)  | [<img src="https://github.com/favicon.ico" width="15"> Github](https://github.com/ChristopherBeards) |
