@@ -1,4 +1,4 @@
-# Restaurant POS [![Build Status](https://travis-ci.org/labseu1-db/labseu1-db-FE)](https://travis-ci.com/Lambda-School-Labs/CS10-restaurant-pos)
+# Restaurant POS [![Build Status](https://travis-ci.org/labseu1-db/labseu1-db-FE.svg?branch=master)](https://travis-ci.com/Lambda-School-Labs/CS10-restaurant-pos)
 Welcome to our Restaurant Point-of-Sale System.
 
 Click [here](https://www.maincourse.app/) to visit the app, or click on the image below to view our video demo and tutorial:
