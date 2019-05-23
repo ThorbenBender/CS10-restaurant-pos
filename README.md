@@ -38,7 +38,6 @@ Click [here](https://labseu1-db-test.firebaseapp.com) to visit the app, or click
     - [firebase](#firebase)
     - [draft-js](#draft-js)
     - [dotenv](#dotenv)
-    - [react-dom](#react-dom)
     - [react-giphy-component](#react-giphy-component)
     - [react-redux](#react-redux)
     - [react-redux-firebase](#react-redux-firebase)
@@ -46,8 +45,7 @@ Click [here](https://labseu1-db-test.firebaseapp.com) to visit the app, or click
     - [react-scripts](#react-scripts)
     - [react-stripe-elements](#react-stripe-elements)
     - [redux-firestore](#redux-firestore)
-    - [semantic-ui-css](#semantic-ui-css)
-    - [semantic-ui-react](#semantic-ui-react)
+    - [semantic-Ui](#semantic-ui)
     - [styled-components](#styled-components)
   - [Front-End Dependencies ```(Development)```](#front-end-dependencies-development)
     - [Eslint](#eslint-1)
@@ -147,6 +145,37 @@ React is the current industry standard that offers a lot of out of the box benef
 
 A state management tool making it possible to store the entire state of the application in a single store. This means a unidirectional data flow, and as the application scales we have predictable state updates which subsequently make things easier to test and introduce new features. Redux also has solid documentation and an active community, meaning that as new devs become introduced to the project it's likely that any problems they face would have already been encountered by someone else, thus making solutions easy to find. | [View Dependency](https://redux.js.org/)
 
+### Firebase
+
+The full Firebase JavaScript client includes support for Firebase Authentication, the Firebase Realtime Database, Firebase Storage, and Firebase Cloud Messaging. Including code via the above snippets will pull in all of these features. | [View Dependency](https://firebase.google.com/docs/web/setup)
+
+### Draft-JS
+
+Draft.js is a JavaScript rich text editor framework, built for React and backed by an immutable model. | [View Dependency](https://draftjs.org/docs/getting-started)
+
+### dotenv
+
+Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology. | [View Dependency](https://www.npmjs.com/package/dotenv)
+
+### React-giphy-component
+
+A simple gif picker component for React using GIPHY API | [View Dependency](https://www.npmjs.com/package/react-giphy-component)
+
+### React-Redux-Firebase
+
+Redux bindings for Firebase. Includes Higher Order Component (HOC) for use with React. | [View Dependency](http://react-redux-firebase.com/docs/getting_started)
+
+### React-Stripe-Elements
+
+This library is a thin React wrapper around Stripe.js and Stripe Elements. It allows you to add Elements to any React app, and manages the state and lifecycle of Elements for you. | [View Dependency](https://stripe.com/docs)
+
+### Redux-Firestore
+
+Redux bindings for Firestore. Provides low-level API used in other libraries such as react-redux-firebase | [View Dependency](https://github.com/prescottprue/redux-firestore)
+
+### Semantic-Ui
+
+Let's you use prebuild and styled components for your website. | [View Dependency](https://react.semantic-ui.com)
 
 ### Styled Components
 
