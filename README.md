@@ -14,7 +14,7 @@ Click [here](https://labseu1-db-test.firebaseapp.com) to visit the app, or click
 
 
 # Table of Contents
-- [Restaurant POS](#restaurant-pos)
+- [Discussion Board](#restaurant-pos)
 - [Team](#team)
 - [Table of Contents](#table-of-contents)
 - [Scripts](#scripts)
