@@ -45,7 +45,7 @@ Click [here](https://labseu1-db-test.firebaseapp.com) to visit the app, or click
     - [react-scripts](#react-scripts)
     - [react-stripe-elements](#react-stripe-elements)
     - [redux-firestore](#redux-firestore)
-    - [semantic-Ui](#semantic-ui)
+    - [Semantic-Ui](#semantic-ui)
     - [styled-components](#styled-components)
   - [Front-End Dependencies ```(Development)```](#front-end-dependencies-development)
     - [Eslint](#eslint-1)
