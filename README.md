@@ -72,7 +72,7 @@ Click [here](https://labseu1-db-test.firebaseapp.com) to visit the app, or click
 	- [Delete Branch](#delete-branch)
     - [Tweak Routes](#tweak-routes)
     	- [Add new tweak](#add-new-tweak)
-	 - [Delete tweak](#delete-tweak)
+		- [Delete tweak](#delete-tweak)
     - [Comment Routes](#comments-routes)
     	- [Add new comment](#add-new-comment)
 	- [Edit comment](#edit-comment)
