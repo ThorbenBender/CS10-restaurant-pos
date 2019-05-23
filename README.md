@@ -111,7 +111,7 @@ Firebase provides the tools and infrastructure you need to develop your app, gro
 
 ### Firebase Functions
 
-Runs Code in response of Http Request or firebase Features | [View Dependency](https://firebase.google.com/docs/functions)
+Runs Code in response of Http Request or firebase Features  [View Dependency](https://firebase.google.com/docs/functions)
 
 ### Cors
 
