@@ -66,7 +66,7 @@ Click [here](https://labseu1-db-test.firebaseapp.com) to visit the app, or click
 		- [Kick People from Branch](#kick-people-from-brach)
 		- [Delete Branch](#delete-branch)
     - [Tweak Routes](#tweak-routes)
-    		- [Add new tweak](#add-new-tweak)
+    	- [Add new tweak](#add-new-tweak)
 		- [Delete tweak](#delete-tweak)
     - [Comment Routes](#comments-routes)
     		- [Add new comment](#add-new-comment)
